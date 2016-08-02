@@ -1,0 +1,14 @@
+//
+//  PrefixHeader.pch
+//  LS_VideoPlayer
+//
+//  Created by Mac on 16/7/27.
+//  Copyright © 2016年 Mac. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define LSLog(...)                  NSLog(@"%s 第%d 行 \n%@\n\n", __func__, __LINE__, [NSString stringWithFormat:__VA_ARGS__])
+
+#endif /* PrefixHeader_pch */
